@@ -76,4 +76,7 @@ $ export const urlApi = 'http://127.0.0.1:SUAPORTA/api/';
 
 ```
 
+# agora já pode acessar o projeto:
+cole este link no seu navegador: http://localhost:8080
+
 <a href="#top">Voltar para o início</a>
