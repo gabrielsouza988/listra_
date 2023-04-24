@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vuex": "^4.0.2",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
