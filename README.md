@@ -54,7 +54,7 @@ $ php artisan key:generate
 # Lembre-se de verificar as credenciais de acesso a ele no arquivo .env
 
 # Agora rode o seguinte codigo para construir o nosso BD
-$ php artisan migrate:fresh --seed
+$ php artisan migrate --seed
 
 # Depois você irar até a pasta que esta o nosso Front-end
 $ cd ./front-end
