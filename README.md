@@ -1,9 +1,9 @@
 
 
-<h1 align="center">Lista de tarefas</h1>
+<h1 align="center">Listra_</h1>
 
 <p align="center">
-  <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#Objetivo">Objetivo</a> &#xa0; | &#xa0; 
   <a href="#Tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#Requisitos">Requisitos</a> &#xa0; | &#xa0;
   <a href="#Iniciando">Iniciando</a> &#xa0; | &#xa0;
@@ -12,9 +12,9 @@
 
 <br>
 
-## :sobre ##
+## :Objetivo ##
 
-O projeto consiste em cadastro de uma tarefa e dentro desta tarefa tem seus itens, que podem ser deletados ou concluidos.
+Este projeto possui como objetivo simular o financiamento de um veículo no qual o cliente possui interesse.
 
 ## :Tecnologias ##
 
@@ -34,24 +34,24 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 
 ```bash
 # Clonar o repositorio
-$ git clone https://github.com/gabrielsouza988/to-do-list
+$ git clone https://github.com/gabrielsouza988/listra_.git
 
 # Acessar onde o projeto foi instalado
-$ cd to-do-list
+$ cd listra_
 
 #navegar até a pasta que esta o nosso Back-end
 $ cd ./laravel/
 
 # instalar dependencias do composer
-$ composer update
+$ composer install
 
 # iniciar o nosso banco de dados
 # Renomear o arquivo .env.example para .env
 # gere uma chave para a sua aplicação
 $ php artisan key:generate
 
-# Agora gere uma chave JWT
-$ php artisan jwt:secret
+# Agora inicie o banco de dados de sua preferencia
+# Lembre-se de verificar as credenciais de acesso a ele no arquivo .env
 
 # Agora rode o seguinte codigo para construir o nosso BD
 $ php artisan migrate:fresh --seed
@@ -64,14 +64,10 @@ $ npm i
 
 # Para iniciar o projeto você deve rodar os seguintes comandos
 # Dentro do diretorio do front-end rode
-$ npm run serve -- --port=3000
+$ npm run serve
 
 # Dentro do diretorio do Back-end
-$ php artisan serve --port=4000 
-
-# Agora inicie o seu banco de dados de sua preferencia
-# So lembre de verificar as credenciais de acesso a ele no arquivo .env
-
+$ php artisan serve
 
 # OBS: Caso queira mudar a porta do servidor da api do Back-end
 # Tem uma const dentro do front-end chamada urlApi
@@ -79,5 +75,8 @@ $ php artisan serve --port=4000
 $ export const urlApi = 'http://127.0.0.1:SUAPORTA/api/';
 
 ```
+
+# agora já pode acessar o projeto:
+cole este link no seu navegador: http://localhost:8080
 
 <a href="#top">Voltar para o início</a>
